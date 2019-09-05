@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  runscope:
+    build:
+      context: .
+      dockerfile: Dockerfile
