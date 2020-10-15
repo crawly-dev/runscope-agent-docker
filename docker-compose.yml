@@ -5,3 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - RUNSCOPE_AGENT_ID=ANY_UUID
+      - RUNSCOPE_TEAM_ID=ANY_UUID
+      - RUNSCOPE_NAME=ANY_NAME
+      - RUNSCOPE_TOKEN=YOUR_TOKEN
